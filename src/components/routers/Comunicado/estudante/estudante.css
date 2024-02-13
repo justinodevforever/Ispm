@@ -1,0 +1,51 @@
+.container-estudante {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: auto;
+}
+
+.container-estudante ul {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+.container-estudante .focus {
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14pt;
+  background-color: #a31543;
+  opacity: 2;
+}
+
+.container-estudante ul li a {
+  color: #a31543;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14pt;
+  position: relative;
+  transition: 1s;
+  list-style: none;
+  background-color: #ece0e0;
+  opacity: 1;
+}
+/* .container-estudante ul li a:hover:before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #a31543;
+  position: absolute;
+  bottom: 0;
+  animation: meuHover 1s forwards;
+} */
+
+@keyframes meuHover {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100%;
+  }
+}
